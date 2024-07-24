@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.email =""
+global.location="New Delhi,India."
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -16,17 +16,17 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/India";
+global.github=process.env.GITHUB|| "";
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/EZjCgLTJfRd8LHOyVC163u";
+global.website=process.env.GURL || "https://chat.whatsapp.com/EZjCgLTJfRd8LHOyVC163u" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
+global.caption = process.env.CAPTION || global.caption || "𝑊𝑎𝑖𝑡 𝑏𝑟𝑜..." 
 
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "917439317360";
 
 
 
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀𝐝𝐫𝐢𝐞𝐧 - 𝐌𝐝 』"
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
+  author : process.env.PACK_AUTHER|| "𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗯𝘆",
+  packname: process.env.PACK_NAME || "𝚇𝚅⃝ ࣪ㅤ𝚫̸𝐃᜔𝐑̸𝚰࣪𝚵̸̷ꥊ𝚴 🧧༡",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Suhail",
+  ownername:process.env.OWNER_NAME|| "𝚇𝚅⃝ ࣪ㅤ𝚫̸𝐃᜔𝐑̸𝚰࣪𝚵̸̷ꥊ𝚴 🧧༡",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "GOJO"  ).toUpperCase(),
 
 
 
