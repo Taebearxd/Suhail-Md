@@ -74,8 +74,8 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀𝐝𝐫𝐢𝐞𝐧 - 𝐌𝐝 』"
  
-  author : process.env.PACK_AUTHER|| "𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗯𝘆",
-  packname: process.env.PACK_NAME || "𝚇𝚅⃝ ࣪ㅤ𝚫̸𝐃᜔𝐑̸𝚰࣪𝚵̸̷ꥊ𝚴 🧧༡",
+  author : process.env.PACK_AUTHER|| "Sticker by",
+  packname: process.env.PACK_NAME || 𝚇𝚅⃝ ࣪ㅤ𝚫̸𝐃᜔𝐑̸𝚰࣪𝚵̸̷ꥊ𝚴 🧧༡"",
   botname : process.env.BOT_NAME  || "Bear-Bot",
   ownername:process.env.OWNER_NAME|| "𝚇𝚅⃝ ࣪ㅤ𝚫̸𝐃᜔𝐑̸𝚰࣪𝚵̸̷ꥊ𝚴 🧧༡",
 
