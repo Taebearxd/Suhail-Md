@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/India";
 global.github=process.env.GITHUB|| "";
 global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/EZjCgLTJfRd8LHOyVC163u";
 global.website=process.env.GURL || "https://chat.whatsapp.com/EZjCgLTJfRd8LHOyVC163u" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/Taebearxd/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "Adrien" 
 
 
