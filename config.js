@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "";
 global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/EZjCgLTJfRd8LHOyVC163u";
 global.website=process.env.GURL || "https://chat.whatsapp.com/EZjCgLTJfRd8LHOyVC163u" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "𝑊𝑎𝑖𝑡 𝑏𝑟𝑜..." 
+global.caption = process.env.CAPTION || global.caption || "Adrien" 
 
 
 global.devs = "917439317360" // Developer Contact
@@ -76,7 +76,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗯𝘆",
   packname: process.env.PACK_NAME || "𝚇𝚅⃝ ࣪ㅤ𝚫̸𝐃᜔𝐑̸𝚰࣪𝚵̸̷ꥊ𝚴 🧧༡",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
+  botname : process.env.BOT_NAME  || "Bear-Bot",
   ownername:process.env.OWNER_NAME|| "𝚇𝚅⃝ ࣪ㅤ𝚫̸𝐃᜔𝐑̸𝚰࣪𝚵̸̷ꥊ𝚴 🧧༡",
 
 
@@ -91,7 +91,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "GOJO"  ).toUpperCase(),
 
 
